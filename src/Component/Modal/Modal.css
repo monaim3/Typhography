@@ -1,0 +1,55 @@
+
+.pop{
+  box-shadow: 10px 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #ddd;
+  cursor: pointer;
+  width: 10rem;
+  height: 0.5rem;
+  border-radius: 15px;
+}
+ /* tringle shape path */
+.shape{
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 90%, 90%, 90%,);
+  box-shadow: 30px 10px 8px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Style the range input */
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  background: #ddd; /* Set the background color of the slider track */
+  outline: none;
+}
+
+/* Style the thumb (slider handle) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px; 
+  height: 20px; 
+  background: #007BFF; 
+  cursor: pointer;
+  border-radius: 50%; 
+}
+
+/* Change thumb color on hover */
+.slider::-webkit-slider-thumb {
+  background: #ffffff; 
+  box-shadow: 10px 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+/* input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: red;
+    height: 0.5rem;
+  } */
